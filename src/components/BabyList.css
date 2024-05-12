@@ -1,0 +1,25 @@
+/* src/components/BabyList.css */
+.baby-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.baby-table th,
+.baby-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.baby-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.baby-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.baby-table tr:hover {
+  background-color: #ddd;
+}
